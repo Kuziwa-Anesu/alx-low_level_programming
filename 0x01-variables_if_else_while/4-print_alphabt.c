@@ -12,7 +12,9 @@ int main(void)
 
 	for (i = 97; i <= 122; i++)
 		if (i != 65 || i != 71)
-		putchar(i);
+			putchar(i);
+		else
+			continue;
 	putchar (10);
 	return (0);
 }
