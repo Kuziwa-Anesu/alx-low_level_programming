@@ -1,7 +1,7 @@
 /* A program to print the alphabet in lower case */
 #include <stdio.h>
 /**
- * main - print the last letter of the alphabet
+ * main - print the alphabet in lower case
  *
  * Return: 0
  */
