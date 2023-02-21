@@ -1,5 +1,5 @@
 /*A program to print _putchar*/
-#include <main.h>
+/*#include <main.h>
 /**
  * main - entry poinnt
  * Description: use putchar() to print
