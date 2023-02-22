@@ -9,23 +9,9 @@ int print_last_digit(int r)
 {
 	int j;
 
-	if (r > 0)
-	{
-		j = r % 10;
-		_putchar(j + '0');
-		return (j);
-	}
-	else if (r < 0)
-	{
-		j = (r * -1);
-		j = r % 10;
-		_putchar(j + '0');
-		return (j);
-	}
-	else
-	{
-		j = r % 10;
-		_putchar(j + '0');
-		return (j);
-	}
+	j = r % 10;
+	if (j < 0)
+		j *= -1;
+	_putchar(j + 48);
+	return (j);
 }
