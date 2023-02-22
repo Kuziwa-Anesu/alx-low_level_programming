@@ -17,10 +17,10 @@ int _isalpha(int c);
 int print_sign(int n);
 
 /*absolute value of integer*/
-int _abs(int);
+int _abs(int r);
 
 /*print last digit*/
-int print_last_digit(int);
+int print_last_digit(int r);
 
 /*print every minute of the day*/
 void jack_bauer(void);
@@ -29,7 +29,7 @@ void jack_bauer(void);
 void times_table(void);
 
 /*add two integers*/
-int add(int, int);
+int add(int, int r);
 
 /*print numbers from n to 98*/
 void print_to_98(int n);
