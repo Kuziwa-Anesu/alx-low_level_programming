@@ -12,7 +12,7 @@ void times_table(void)
 	{
 		for (y = 0; y <= 9; y++)
 		{
-			if ((x * y) < 10 && y != 9)
+			if ((x * y) < 10)
 			{
 				_putchar(48 + (y * x));
 				_putchar(',');
@@ -21,20 +21,13 @@ void times_table(void)
 			}
 			else if ((x * y) > 10)
 			{
-				if (y == 9 || x < 2)
-				{
-					_putchar(48 + ((x * y) / 10));
-					_putchar(48 + ((x * y) % 10));
-				}
-				else
-				{
-					_putchar(48 + ((x * y) / 10));
+					_putchar(48 +i ((x * y) / 10));
 					_putchar(48 + ((x * y) % 10));
 					_putchar(',');
 					_putchar(' ');
 				}
 			}
 		}
-	}
+	
 }
 
