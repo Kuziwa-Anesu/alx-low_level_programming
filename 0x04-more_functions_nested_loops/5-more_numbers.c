@@ -12,14 +12,14 @@ void more_numbers(void)
 		{
 			if (i < 10)
 			{
-				putchar(48 + i);
+				_putchar(48 + i);
 			}
 			else
 			{
-				putchar(48 + (i / 10));
-				putchar(48 + (i % 10));
+				_putchar(48 + (i / 10));
+				_putchar(48 + (i % 10));
 			}
 		}
-		putchar(10);
+		_putchar(10);
 	}
 }
